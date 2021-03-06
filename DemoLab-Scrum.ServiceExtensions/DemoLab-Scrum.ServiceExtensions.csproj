@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DemoLab_Scrum.ServiceExtensions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoLab-Scrum.Repository\DemoLab-Scrum.Repository.csproj" />
+    <ProjectReference Include="..\MultipleProject.Models\MultipleProject.Models.csproj" />
+  </ItemGroup>
+
+</Project>
